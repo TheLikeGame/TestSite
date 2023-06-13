@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Название аниме 1 - Сайт про аниме</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    .anime-details {
+      display: flex;
+      align-items: center;
+    }
+
+    .video-container {
+      max-width: 800px;
+      margin-top: 20px;
+    }
+
+    .video-container video {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    .anime-details .cover-image {
+      width: 45%;
+      height: auto;
+      margin-right: 10px;
+    }
+    
+    .reviews li img {
+      width: 50px; /* Задайте желаемый размер для аватарок, например, 50px */
+      height: 50px;
+      margin-right: 10px; /* Опционально: */
+      border-radius: 50%; /* Добавляем скругление, чтобы аватарки были круглой формы */
+      border: 1px solid black;
+      object-fit: cover;
+    }
+    
+    .review-details {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+    
+    .review-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto; /* Задайте ширину для номера отзыва */
+    height: auto;/* Задайте высоту для номера отзыва */
+    margin-left: auto; /* Добавляем автоматический отступ слева, чтобы номер отзыва был справа */
+    margin-right: 10px;
+    background-color: #333;
+    color: white;
+    }
+
+    .anime-details .description {
+      flex: 1 1 auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Добро пожаловать на страницу аниме 1</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="anime-series.html">Аниме сериалы</a></li>
+      <li><a href="#">Фильмы</a></li>
+      <li><a href="#">Мероприятия</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Пластиковые воспоминания</h2>
+      <div class="anime-details">
+        <img src="anime1-cover.jpg" alt="Обложка аниме 1" class="cover-image">
+        <div class="description"></div>
+          <p>Сюжет аниме разворачивается в недалеком будущем, где роботы с искусственным интеллектом, называемые Giftia, стали неотъемлемой частью жизни людей.</p>
+        </div>
+      </div>
+      <div class="video-container">
+        <video controls>
+          <source src="anime1.mp4" type="video/mp4">
+          Ваш браузер не поддерживает воспроизведение видео.
+        </video>
+      </div>
+<div class="reviews">
+  <h4>Отзывы о "Пластиковых воспоминаниях":</h4>
+  <ul>
+    <li>
+      <div class ="reviews-details">
+      <img src="avatar1.jpg" alt="Аватар отзыва 1">
+      <div>      <span class="review-number">OrangexBoobs</span>
+      <p>Впечатляющее и трогательное!</p></div>
+      </div>
+
+    </li>
+    <li>
+      <img src="avatar2.jpg" alt="Аватар отзыва 2">
+      <span class="review-number">xXx_Ночной=зверь_xXx</span>
+      <p>Глубокое и проникновенное!</p>
+    </li>
+    <li>
+      <img src="avatar3.jpg" alt="Аватар отзыва 3">
+      <span class="review-number">Яна Рик</span>
+      <p>История, заставляющая задуматься!</p>
+    </li>
+  </ul>
+</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Сайт про аниме</p>
+  </footer>
+</body>
+</html>
